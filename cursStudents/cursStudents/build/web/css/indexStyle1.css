@@ -1,0 +1,205 @@
+body {
+    background-image: url(../images/dark_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #f2f3f5;
+    font-size: 32px;
+    text-align: center;
+}
+form {
+    margin: 20px auto 20px;
+    max-width: 720px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(135, 173, 165, 0.95);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    padding-top: 55px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* new */
+
+.signin {
+    background-color: #d3d3d3;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    opacity: 0.95;
+}
+
+.signin_leave {
+    background-color: #cc0000;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    opacity: 0.95;
+}
+
+.active {
+    border-bottom: 2px solid #1161ed;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-left: 80px;
+    font-size: 27px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 100;
+}
+
+h2:first-child {
+    padding-left: 0px;
+}
+
+span {
+    text-transform: uppercase;
+    font-size: 13px;
+    opacity: 0.9;
+    display: inline-block;
+    position: relative;
+    top: -25px;
+    transition: all 0.5s ease-in-out;
+    margin-left: 20px;
+}
+
+.text {
+    border: none;
+    width: 94%;
+    padding: 10px 20px;
+    display: block;
+    height: 15px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0);
+    overflow: hidden;
+    margin-top: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.text:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.text:focus + span {
+    opacity: 1;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    font-family: 'Montserrat', sans-serif;
+    color: #262829;
+}
+
+input {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 16px;
+    color: #262829;
+}
+
+input::placeholder {
+    
+}
+
+label {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.signin {
+    background-color: #1161ed;
+    color: #FFF;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+}
+
+.signin:hover {
+    background: #4082f5;
+    box-shadow: 0px 4px 35px -5px #4082f5;
+    cursor: pointer;
+}
+
+.signin:focus {
+    outline: none;
+}
+
+.signin_leave {
+    background-color: #cc0000;
+    color: #FFF;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+}
+
+.signin_leave:hover {
+    background: #e04848;
+    box-shadow: 0px 4px 30px -5px #e04848;
+    cursor: pointer;
+}
+
+.signin_leave:focus {
+    outline: none;
+}
+
+.form_1 {
+    padding-top: 1px;
+}
+
+.form_2 {
+    padding-top: 1px;
+}
+
+.form_3 {
+    padding-top: 20px;
+}
+
+.form_4 {
+    padding-top: 20px;
+}
+
+.form_5 {
+    padding-top: 20px;
+}
+
+.form_6 {
+    padding-top: 1px;
+}
+
+.form_7 {
+    padding-top: 1px;
+}
